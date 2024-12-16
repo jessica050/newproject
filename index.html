@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="./css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="./home.html">
+  <link rel="stylesheet" href="./contact.html">
+  <link rel="stylesheet" href="./shop.html">
+   <title>Cosmetics Shop - Home</title>
+  <style>
+    body {
+      background-color: #f8edeb;
+    }
+    .navbar {
+      background-color: #e29578;
+    }
+    .carousel-item {
+      height: 500px;
+    }
+    .carousel-item img {
+      max-height: 500px;
+    }
+    .section-title {
+      color: #6d6875;
+      margin-bottom: 30px;
+    }
+    .featured-product {
+      margin: 20px 0;
+    }
+    footer {
+      background-color: #e29578;
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+ <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./photos/logo.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top"> Cosmetics Shop
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./photos/Untitled design(1).jpg" class="d-block w-100" alt="Image 1">
+      </div>
+  </div>
+
+  <!-- Welcome Section -->
+  <div class="container my-5">
+    <h1 class="section-title text-center">Welcome to Cosmetics Shop</h1>
+    <p class="text-center">Discover the finest range of cosmetics that blend luxury with care. Our products are crafted to bring out the best in you, naturally.</p>
+  </div>
+
+  <!-- Featured Products Section -->
+  <div class="container my-5">
+    <h2 class="section-title text-center">Featured Products</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card featured-product">
+            <img src="./photos/images (7).jpeg" class="card-img-top" alt="steves" height="400px">
+            <div class="card-body">
+              <h5 class="card-title">Maybelline New York</h5>
+              <p class="card-text">Hyper Precise All Day Liner, Black</p>
+              <p class="card-text">EGP 300.00 </p>
+              <a href="" class="btn btn-primary">add cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card featured-product">
+            <img src="./photos/download (4).jpeg" class="card-img-top" alt="Clinique" height="400">
+            <div class="card-body">
+              <h5 class="card-title">essence lash princess</h5>
+              <p class="card-text">false lash effect mascara waterproof</p>
+              <p class="card-text">EGP 299.00 </p>
+              <a href="#" class="btn btn-primary">add cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card featured-product">
+            <img src="./photos/download (12).jpeg" class="card-img-top" alt="e.l.f" height="400" width="40">
+            <div class="card-body">
+              <h5 class="card-title">e.l.f. Flawless Finish Foundation</h5>
+              <p class="card-text">Lightweight & Medium Coverage, Semi-Matte Finish, Natural, 0.68 Fl Oz (20mL).</p>
+              <p class="card-text">EGP 1,699.00 </p>
+              <a href="#" class="btn btn-primary">add cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <div class="container ">
+    <h2 class="section-title text-center">What Our Customers Say</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-block w-100  bg-light" style="margin-top: 150px;">
+            <blockquote class="blockquote text-center">
+              <p class="">"Absolutely love these products! My skin has never felt better."</p>
+              <br>
+              <footer class="blockquote-footer">Customer 1</footer>
+            </blockquote>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100  bg-light" style="margin-top: 150px;">
+            <blockquote class="blockquote text-center">
+              <p class="">"The quality is unmatched. I recommend it to all my friends!"</p>
+              <br>
+              <footer class="blockquote-footer">Customer 2</footer>
+            </blockquote>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100  bg-light" style="margin-top: 150px;">
+            <blockquote class="blockquote text-center">
+              <p class="">"Great service and amazing products. I'm a loyal customer now."</p>
+              <br>
+              <footer class="blockquote-footer">Customer 3</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Cosmetics Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
